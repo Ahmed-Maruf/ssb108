@@ -9,3 +9,19 @@ body{
 	font-weight: 400;
 	color: #444;
 }
+
+ol,ul{
+	margin-bottom: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+ul li{
+	display: inline-block;
+}
+
+a,a:hover{
+	text-decoration: none;
+}
