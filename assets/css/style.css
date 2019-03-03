@@ -10,11 +10,17 @@ header{
 
 header a.logo{
 	float: left;
+	height: 112px;
+}
+
+header a.logo img{
+	height: 100%;
 }
 
 header nav#menu{
-	float: right;
-	font-weight: bold;	
+	text-align: center;
+	font-weight: bold;
+	background-color: #343a40	
 }
 
 header nav#menu ul li{
@@ -32,4 +38,18 @@ header nav#menu ul li a{
 header nav#menu ul li a:hover{
 	text-decoration: none;
 	color: #00aeef;
+}
+
+/* Container */
+
+.container{
+	width:1170px;
+	margin:0 auto;
+}
+.row,.col{
+	width: 100%;
+}
+.row{
+	display: table;
+	margin-bottom: 20px;
 }
