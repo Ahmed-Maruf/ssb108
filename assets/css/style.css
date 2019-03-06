@@ -55,8 +55,7 @@ header nav#menu ul li a:hover{
 }
 
 .row{
-	margin-right: -15px;
-	margin-left: -15px;	
+
 }
 
 .container::after,.row::after{
