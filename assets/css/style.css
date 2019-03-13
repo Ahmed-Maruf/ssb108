@@ -1,67 +1,89 @@
-/* HEADER SECTION */
 
+/* GENERAL */
+
+.container{
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 80%;
+	grid-template-columns: 80%;
+	-webkit-box-pack:center;
+	-ms-flex-pack:center;
+	justify-content:center;
+}
+
+.primary-color{
+	color: #00aeef
+}
+/* HEADER SECTION */
 header{
-	width: 100%;
-	height: 112px;
-	line-height: 112px;
-	color: #fff;
-	background-color: #343a40; 
+	color:#fff;
+	background-color: #343a40;
 }
 
 header a.logo{
 	float: left;
 	height: 112px;
 }
-
 header a.logo img{
 	height: 100%;
 }
 
-header nav#menu{
+/* NAVIGATION MENU */
+nav .row{
+	background-color: #343a40
+}
+nav#menu{
 	text-align: center;
 	font-weight: bold;
-	background-color: #343a40	
+	height: 112px;
+	line-height: 112px;
+	margin-top: 20px;	
 }
 
-header nav#menu ul li{
+nav#menu ul li{
 	padding-left: 35px;
 }
 
-header nav#menu ul li:first-child{
+nav#menu ul li:first-child{
 	padding-left: 0;
 }
 
-header nav#menu ul li a{
+nav#menu ul li a{
 	color:#fff;
 }
 
-header nav#menu ul li a:hover{
+nav#menu ul li a:hover{
 	text-decoration: none;
 	color: #00aeef;
 }
 
-/* Container */
+/* BANNER SECTION */
 
-.container{
-	width:1170px;
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
-}
-.container::before,.container::after,.row::before,.row::after{
-	display: table;
-	content: '';
-}
-
-.row{
-
-}
-
-.container::after,.row::after{
-	clear: both;
+.banner-area{
+	display: -ms-grid;
+	display: grid;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	height: 600px;
+	width:100%;
+	text-align: center;
+	color:#fff;
+	background: -webkit-gradient( linear, left top, left bottom, from(rgba(0,0,0,0.5)), to(rgba(0, 0, 0, 0.5)) ),url('../img/lab.jpg') no-repeat center center fixed;
+	background: -webkit-linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url('../img/lab.jpg') no-repeat center center fixed;
+	background: -o-linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url('../img/lab.jpg') no-repeat center center fixed;
+	background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url('../img/lab.jpg') no-repeat center center fixed;
+	background-size: cover;
 }
 
-.section{
-	display: block;
+.banner-area h1{
+	font-size:36px;
+}
+
+/* NEWS SECTION */
+
+.news .row{
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 1fr 2fr;
+	grid-template-columns: 1fr 2fr;
 }
