@@ -31,7 +31,7 @@
 	width: 80%;
 	margin: 0 auto;
 	overflow:hidden;
-	/* border: 1px solid red; */
+	border: 1px solid white;
 }
 .logo{
 	display: inline-block;
@@ -80,6 +80,7 @@
 
 #banner{
 	background-image: url(../img/edge-banner.png);
+	background-color: rgba(121,107,96,.5);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -91,7 +92,6 @@
 	width:50%;
 	margin-top:200px;
 	margin-bottom:80px;
-	border:1px solid red;
 }
 .banner-title{
 
@@ -131,4 +131,61 @@
 }
 .banner-content button img{
 	width:15px;
+}
+
+/* Services Section */
+
+.services{
+	background-color: #121B2a;
+	padding: 40px 0;
+}
+
+.services .service{
+	width: 30%;
+	float: left;
+	border: 2px solid red;
+}
+
+.services .service .service-header{
+	overflow: hidden;
+}
+
+.services .service .service-header .service-header-icon{
+	width: 30%;
+	/* border: 1px solid white; */
+	float: left;	
+}
+.services .service .service-header .service-header-icon img{
+	width: 100%;
+}
+
+.services .service .service-header .service-header-content{
+	width: 65%;
+	/* border: 1px solid white; */
+	float: left;
+	margin-top: 20px;
+}
+
+.services .service .service-header .service-header-content h1{
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-weight: 400;
+	font-family: sans-serif;
+	color: #fff;
+}
+.services .service .service-header .service-header-content h2{
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-weight: 400;
+	font-family: sans-serif;
+}
+.services .service .service-body{
+
+}
+.services .service .service-body p{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 25px;
+	color: #fff;
+	margin-bottom: 5px;
 }
