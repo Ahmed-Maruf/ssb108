@@ -31,7 +31,7 @@
 	width: 80%;
 	margin: 0 auto;
 	overflow:hidden;
-	border: 1px solid white;
+	/* border: 1px solid white; */
 }
 .logo{
 	display: inline-block;
@@ -141,9 +141,13 @@
 }
 
 .services .service{
-	width: 30%;
+	width: 32%;
 	float: left;
-	border: 2px solid red;
+	border-right: 1px solid #938989;
+	margin-right: 1%;
+}
+.services .service:last-child{
+	border-right: none;
 }
 
 .services .service .service-header{
@@ -186,6 +190,41 @@
 	font-family: sans-serif;
 	font-size: 14px;
 	line-height: 25px;
+	color: #fff;
+	margin-bottom: 5px;
+}
+
+/* Extra Information */
+
+.extra-information{
+	background-color: #0a0e15;
+	padding: 40px 0;
+}
+
+.extra-information .contact{
+	border: 1px solid #938989;
+	width: 20%;
+}
+.extra-information .contact h2{
+	margin-bottom: 10px;
+	font-size: 25px;
+	font-weight: 400;
+	font-family: sans-serif;
+	color:#ffffff;
+}
+
+.extra-information .contact .contact-description{
+	font-family: sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+
+.extra-information .contact .digital-address{
+	font-family: sans-serif;
+	font-size: 15px;
+	line-height: 20px;
 	color: #fff;
 	margin-bottom: 5px;
 }
