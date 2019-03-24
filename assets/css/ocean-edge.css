@@ -141,10 +141,11 @@
 }
 
 .services .service{
-	width: 32%;
+	width: 30%;
 	float: left;
 	border-right: 1px solid #938989;
-	margin-right: 1%;
+	margin-right: 30px;
+	padding-right: 15px;
 }
 .services .service:last-child{
 	border-right: none;
@@ -202,8 +203,10 @@
 }
 
 .extra-information .contact{
-	border: 1px solid #938989;
-	width: 20%;
+	width: 22%;
+	float: left;
+	padding: 20px 20px;
+	margin-right: 45px;
 }
 .extra-information .contact h2{
 	margin-bottom: 10px;
@@ -214,6 +217,9 @@
 }
 
 .extra-information .contact .contact-description{
+
+}
+.extra-information .contact p.contact-description{
 	font-family: sans-serif;
 	font-size: 15px;
 	line-height: 20px;
@@ -227,4 +233,146 @@
 	line-height: 20px;
 	color: #fff;
 	margin-bottom: 5px;
+}
+
+.extra-information .testimonials{
+	width: 30%;
+	float: left;
+	position: relative;
+	margin-right: 20px;
+}
+
+.extra-information .testimonials .testimonial-content{
+	-webkit-box-shadow: 0px 1px 5px -1px rgba(51,64,71,1);
+	box-shadow: 0px 1px 5px -1px rgba(51,64,71,1);
+	padding: 20px 20px;
+	background-color: rgba(51,64,71,1);
+	border-radius: 2%;
+}
+
+.extra-information .testimonials .testimonial-content .testimonial-header{
+	margin-bottom: 10px;
+}
+.extra-information .testimonials .testimonial-content .testimonial-header h2{
+	font-size: 25px;
+	font-weight: 400;
+	font-family: sans-serif;
+	color: #ffffff;
+}
+.extra-information .testimonials .testimonial-content .testimonial-body{
+	margin-bottom: 10px;
+}
+.extra-information .testimonials .testimonial-content .testimonial-body p{
+	font-family: sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.extra-information .testimonials .testimonial-talk-bubble
+{
+	width: 0;
+	height: 0;
+	border-top: 0px solid transparent;
+	border-left: 65px solid rgb(51, 64, 71);
+	border-bottom: 30px solid transparent;
+	position: absolute;
+	right: 80px;
+}
+.extra-information .testimonials .testimonial-author{
+	padding: 20px 20px;
+}
+.extra-information .testimonials .testimonial-author h4{
+	font-family: sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+	color: #fff;
+	margin-bottom: 5px;
+}
+.extra-information .testimonials .testimonial-author p{
+	font-family: sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+	color: #fff;
+	margin-bottom: 5px;
+}
+
+/* Mobile Apps */
+
+.extra-information .mobile-apps{
+	width: 40%;
+	float: left;
+	overflow: hidden;
+}
+.extra-information .mobile-apps .mobile-img{
+	float: left;
+}
+.extra-information .mobile-apps .mobile-img img{
+
+}
+.extra-information .mobile-apps .mobile-apps-name{
+	float: left;;
+}
+.extra-information .mobile-apps .mobile-apps-name h3{
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-weight: 400;
+	font-family: sans-serif;
+	color: #fff;
+
+}
+.extra-information .mobile-apps .mobile-apps-name h2{
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-weight: 400;
+	font-family: sans-serif;
+}
+
+.extra-information .mobile-apps .app-store{
+	float: left;
+	width: 35%;
+}
+.extra-information .mobile-apps .app-store img{
+	width: 100%;
+}
+
+/* Footer */
+
+.footer-menu{
+	display: inline-block;
+	float: left;
+	/* border: 1px solid red; */
+}
+.footer-menu ul{
+	float: left;
+}
+.footer-menu ul li{
+	float: left;
+}
+.footer-menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	padding: 0 30px;
+	display: block;
+	margin-top: 45px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	-webkit-transition: color .5s ease;
+	-o-transition: color .5s ease;
+	transition: color .5s ease; 
+	
+}
+.footer-menu ul li a:last-child{
+	padding-right: 0;
+}
+.footer-menu ul li a:hover{
+	color: #0078BF;
+}
+
+.footer-menu h3{
+	color: white;
+	font-size: 15px;
+	padding-left: 30px;
+	display: block;
 }
