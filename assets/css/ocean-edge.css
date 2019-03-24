@@ -24,7 +24,7 @@
 /* HEADER CSS */
 
 #header{
-
+	padding: 20px 0;
 }
 
 .container{
@@ -338,6 +338,9 @@
 
 /* Footer */
 
+.footer{
+	padding-bottom: 45px;
+}
 .footer-menu{
 	display: inline-block;
 	float: left;
@@ -375,4 +378,14 @@
 	font-size: 15px;
 	padding-left: 30px;
 	display: block;
+	font-weight: 400;
+}
+
+.footer-images{
+	float: right;
+	margin-top: 36px;
+}
+
+.footer-images img{
+	margin-right: 30px;
 }
